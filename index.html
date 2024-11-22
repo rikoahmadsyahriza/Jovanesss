@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PesanMakan - Aplikasi Pemesanan Makanan Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order">Pemesanan</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Selamat Datang di PesanMakan!</h1>
+      <p>Aplikasi pemesanan makanan online dengan pilihan menu terbaik untuk Anda.</p>
+      <a href="#menu" class="btn">Lihat Menu</a>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Menu Kami</h2>
+      <div class="menu-item">
+        <img src="image/foto1.jpg" alt="Pasta">
+        <h3>Pasta Carbonara</h3>
+        <p>Rp 45.000</p>
+        <button class="btn order-btn" data-name="Pasta Carbonara">Pesan</button>
+      </div>
+      <div class="menu-item">
+        <img src="image/foto2.jpg" alt="Burger">
+        <h3>Cheese Burger</h3>
+        <p>Rp 30.000</p>
+        <button class="btn order-btn" data-name="Cheese Burger">Pesan</button>
+      </div>
+      <div class="menu-item">
+        <img src="image/foto4.jpg" alt="Pizza">
+        <h3>Pizza Margherita</h3>
+        <p>Rp 60.000</p>
+        <button class="btn order-btn" data-name="Pizza Margherita">Pesan</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="order" class="order">
+    <div class="container">
+      <h2>Pemesanan Anda</h2>
+      <ul id="order-list">
+        <li>Belum ada makanan yang dipilih.</li>
+      </ul>
+      <button id="checkout-btn" class="btn">Lanjutkan ke Pembayaran</button>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Kontak Kami</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Nama Lengkap" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <textarea id="message" placeholder="Pesan" required></textarea>
+        <button type="submit" class="btn">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 PesanMakan. Semua hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

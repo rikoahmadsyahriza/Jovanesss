@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  color: rgb(142, 142, 142);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hero {
+  background: url('image/bck.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #FF6347;
+  color: rgb(58, 3, 3);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menu {
+  padding: 50px 0;
+  background-color: #848080;
+  text-align: center;
+}
+
+.menu h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.order {
+  padding: 50px 0;
+  background-color: #848080;
+  text-align: center;
+}
+
+.order ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.contact {
+  padding: 50px 0;
+  background-color: #fffafa;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.contact input, .contact textarea {
+  width: 80%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #FF6347;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
